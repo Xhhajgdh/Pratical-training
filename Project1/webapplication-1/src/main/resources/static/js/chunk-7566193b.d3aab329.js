@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-7566193b"],{"0f3e":function(c,e,t){},"2cf9":function(c,e,t){"use strict";t("0f3e")},eec5:function(c,e,t){"use strict";t.r(e);var n=t("7a23");Object(n["O"])("data-v-17ac875f");var a={class:"block w"},o=Object(n["n"])("h1",{style:{"margin-top":"250px"}},"天堂物流欢迎您",-1),f=[o];function r(c,e,t,o,r,s){return Object(n["L"])(),Object(n["m"])("div",a,f)}Object(n["M"])();var s={name:"Welcome"};t("2cf9");s.render=r,s.__scopeId="data-v-17ac875f";e["default"]=s}}]);
+//# sourceMappingURL=chunk-7566193b.d3aab329.js.map

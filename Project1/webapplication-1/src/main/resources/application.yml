@@ -1,0 +1,29 @@
+logging:
+  level:
+    com.champion: debug
+    org.springframework: info
+server:
+  port: 8076
+
+jdbc:
+  driver: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/birpod_realtime?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8
+  username: root
+  password: conqure2013
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ttwl?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+  thymeleaf:
+    view-names: echarts
+    cache: false # 开发时关闭缓存,不然没法看到实时页面
+
+
+mybatis:
+  type-aliases-package: com.champion.pojo
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
